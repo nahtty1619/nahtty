@@ -105,3 +105,28 @@ color:#fff;
     }
     
 }
+
+
+/*lists*/
+.list{
+    color: var(--color-headings);
+    padding: 0;
+}
+.list--inline .list__item{
+display: inline-block;
+margin-left: 2rem;
+}
+.list--tick{
+    list-style-image: url(../images/check-solid.svg);
+    padding-left: 3rem;
+}
+.list--tick .list__item{
+    padding: 0.5rem;
+}
+
+@media screen and (min-width:1024px)  {
+    .list--tick .list__item{
+        padding: 0;
+    }
+    
+}
